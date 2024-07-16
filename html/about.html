@@ -172,7 +172,7 @@
                     <a href="mailto:inakathinka@gmail.com">inakathinka@gmail.com</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card visible">
                 <div class="image-card">
                     <img src="../images/bod/inga.jpeg" alt="#">
                 </div>
@@ -182,7 +182,7 @@
                     <a href="mailto:ingabirnasigursteinsd@gmail.com">ingabirnasigursteinsd@gmail.com</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card visible">
                 <div class="image-card">
                     <img src="../images/bod/hanna.jpeg" alt="#">
                 </div>
@@ -192,7 +192,7 @@
                     <a href="mailto:htp4@hi.is">htp4@hi.is</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card visible">
                 <div class="image-card">
                     <img src="../images/bod/viktoria.jpeg" alt="#">
                 </div>
@@ -202,7 +202,7 @@
                     <a href="mailto:vittysveins@hotmail.com">vittysveins@hotmail.com</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card visible">
                 <div class="image-card">
                     <img src="../images/bod/fridbjorg.jpeg" alt="#">
                 </div>
@@ -212,7 +212,7 @@
                     <a href="mailto:flr2@hi.is">flr2@hi.is</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card visible">
                 <div class="image-card">
                     <img src="../images/bod/sandra.jpeg" alt="#">
                 </div>
@@ -222,7 +222,7 @@
                     <a href="mailto:ssf7@hi.is">ssf7@hi.is</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card visible">
                 <div class="image-card">
                     <img src="../images/bod/rakel.jpeg" alt="#">
                 </div>
@@ -232,7 +232,7 @@
                     <a href="mailto:ha170032@unak.is">ha170032@unak.is</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card visible">
                 <div class="image-card">
                     <img src="../images/bod/sara.jpeg" alt="#">
                 </div>
@@ -243,10 +243,8 @@
                 </div>
             </div>
         </div>
-        <div class="button-container">
-            <button id="toggleButton" onclick="toggleCards()">Show More</button>
-        </div>
     </section>
+    
     <section id="contact">
         <div class="contact-right-content">
             <p class="par">Contact Us</p>
@@ -361,19 +359,7 @@
                 });
             }, 0);
         });
-        function toggleCards() {
-            const cards = document.querySelectorAll('.card');
-            const button = document.getElementById('toggleButton');
-            if (button.textContent === 'Show More') {
-                cards.forEach(card => card.classList.add('visible'));
-                button.textContent = 'Show Less';
-            } else {
-                cards.forEach((card, index) => {
-                    if (index >= 3) card.classList.remove('visible');
-                });
-                button.textContent = 'Show More';
-            }
-        }
+        
     </script>
 </body>
 </html>

@@ -315,6 +315,7 @@ hr{
     margin-bottom: 0.5rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    line-clamp: 1;
     -webkit-line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;

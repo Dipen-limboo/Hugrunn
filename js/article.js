@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     mobileMenuIcon.addEventListener("click", function (event) {
-        event.stopPropagation(); // Prevent the click event from bubbling up to the document
+        event.stopPropagation(); 
         toggleMobileNav();
     });
 
