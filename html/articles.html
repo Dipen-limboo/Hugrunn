@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hugrun Articles</title>
+        <link rel="stylesheet" href="../css/hugrun.css" />
+        <link rel="stylesheet" href="../css/article.css">
+        <link rel="stylesheet" href="../css/hugrunResponsive.css">
+
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+
+        <!-- seo meta tag -->
+        <meta name="description" content="Hugrún provides education for young people and offers tailored educational programs for mental health awareness. Explore our resources for parents and mental health information.">
+        <meta name="keywords" content="Hugrún, mental health, education, mental health awareness, resources, lectures, parents, students">
+        <meta name="author" content="Hugrún Organization">
+        <link rel="canonical" href="https://gedfraedsla.is/" />
+        <meta property="og:title" content="Hugrun - Mental Health Education" />
+        <meta property="og:description" content="Hugrún provides education for young people and offers tailored educational programs for mental health awareness. Explore our resources for parents and mental health information." />
+        <meta property="og:url" content="https://gedfraedsla.is/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://gedfraedsla.is/images/hugrun_logo.svg" />
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../hugrun.html"><img src="../images/hugrun_logo.svg" alt="logo here" /></a>
+            </div>
+            <div class="nav-right-content">
+                <div class="nav-content">
+                    <ul>
+                        <li><a href="../hugrun.html">Home</a></li>
+                        <li>
+                            <a href="#">Articles</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#articles">For Parents</a></li>
+                                <li><a href="#articles">Mental Health</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../hugrun.html#booking">Book a Lecture</a></li>
+                        <li><a href="./about.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="language-toggle">
+                    <div class="selected-language">
+                        <img src="../images/eng.png" alt="English" id="current-flag" class="flag-circle" />
+                        <span id="current-lang-text">EN</span>
+                    </div>
+                    <select id="language-select" onchange="changeLanguage()">
+                        <option value="en" data-img="../images/eng.png">English</option>
+                        <option value="is" data-img="../images/island.png">Icelandic</option>
+                        <option value="pl" data-img="../images/poland.png">Polish</option>
+                    </select>
+                </div>
+                <div class="mobile-menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="mobile-nav-content">
+                <div class="top-nav">
+                    <div class="logo">
+                        <a href="../hugrun.html"
+                            ><img src="../images/hugrun_logo.svg" alt="logo here"
+                        /></a>
+                        </div>
+                    <div class="mobile-close-icon">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="bottom-nav">
+                    <ul>
+                        <li><a href="../hugrun.html">Home</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <p onclick="myFunction()" class="dropbtn">Articles</p>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="./articles.html">For Parents</a>
+                                    <a href="./articles.html">Mental Health</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="../hugrun.html#booking">Book a Lecture</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="articles">
+        <div class="articles-categories">
+            <div class="articles-title">
+                <h1>Information for Parents</h1> <hr>
+                <p id="current-page"> <a href="#" > Parents</a></p>
+                <p> <a href="#"> Emotions</a></p>
+                <p> <a href="#"> Slef-Esteem</a></p>
+                <p> <a href="#"> Grief</a></p>
+                <p> <a href="#"> Loved Ones</a></p>
+                <p> <a href="#"> Resources</a></p>
+            </div>
+        </div>
+        <div class="mobile-category">
+            <button>Parents</button>
+        </div>
+        <div class="articles-categories-mobile">
+            <div class="articles-title">
+                <div class="top-nav">
+                    <h1>Information for Parents</h1> 
+                </div>
+                <div class="bottom">
+                    <p id="current-page"> <a href="#"> Parents</a></p>
+                    <p> <a href="#"> Emotions</a></p>
+                    <p> <a href="#"> Self-Esteem</a></p>
+                    <p> <a href="#"> Grief</a></p>
+                    <p> <a href="#"> Loved Ones</a></p>
+                    <p> <a href="#"> Resources</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="articles-contents">
+            <div class="articles-contents-heading">
+                <div class="logo">
+                    <a href="../hugrun.html"><img src="../images/hugrun_logo.svg" alt="logo here" /></a>
+                </div>
+                <h6>Information for Parents > <span>Parents</span></h6>
+                <h6 class="date"><span>06-21-2024</span></h6>
+            </div>
+            <div class="articles-content-body">
+                <h3>Parents</h3>
+                <!-- <img src="../images/home-left.jpg" alt="parents"> -->
+                <p> &nbsp; &nbsp; Psychiatric education increases the awareness of mental health and mental health problems and can reduce prejudice. Psychiatric education can, therefore, increase the likelihood of people seeking help and reduce the severity of the problem. Psychiatric disorders usually occur at the age of 14-24, although they can begin at any time during one's liftetime. It is immensely important that young people of this age have someone they can reach out to when they are experiencing difficult feelings or symptoms of a mental disorder.</p> <br>
+                <p>&nbsp; &nbsp;The following instructions are intended for the parents, guardians or carers of young people aged 14-18 years. They outline how educational materials on the site can be used to increase awareness and open the discussion about mental health and mental disorders at home. They may be relevant to ages other than 14-18 years, but the educational material to which they refer is specifically made with that age range in mind.</p><br>
+                <p>Read these instructions before discussing the educational material with young people:</p><br>
+                <ol>
+                    <li>Reserve an evening or another suitable time to review the educational material together.</li>
+                    <li>Explain what you are about to do, you are about to talk about mental health and introduce yourself to mental disorders that are common at their age.</li>
+                    <li>Answer questions to the best of your ability. It is normal to not know the answers to everything and it is better to say it outright rather than guessing or saying something that might be wrong. If there is a strong interest in finding an answer, it is advisable to try to find it together, look to a professional or find a reliable answer with reliable sources.</li>
+                    <li>Open and read through texts regarding mental health and emotions. (Mental Health).</li>
+                    <li>Next, read through the self-esteem text. (Self-esteem).</li>
+                    <li>The most common disorders of young people are depression and anxiety disorders. Therefore, those are the disorders that are recommended that everyone reads over together. There are many anxiety disorders and, therefore, a great deal of anxiety educational material to be found on the site. To simplify that review, it is suggested to read it together through the general introduction of anxiety as well as information about social anxiety as it is common at this age. (Depression, about anxiety in general, social anxiety).</li>
+                    <li>If there is a history of other mental disorders in the family, especially the immediate family, it would be advisable to also read through the corresponding educational material.</li>
+                    <li>Everyone should read through the materials regarding self-harm and suicidal thoughts. It is a myth that it is harmful to discuss suicidal thoughts. An open and honest discussion regarding suicidal thoughts can save lives. (Self-harm and suicidal thoughts).</li>
+                    <li>Educational material regarding eating disorders is relevant to many individuals and it is also recommended to read through a general introduction of them. Especially if dieting is common with the adolescent or in their immediate surroundings. Sports can also be a risk factor for the development of eating disorders. The frequency of eating disorders is the highest in sports such as gymnastics, dance and martial arts where they compete in weight classes. (Eating disorders).</li>
+                    <li>It is important to know the main resources and what is available when seeking assistance. The following is basic information about resources in Iceland. It is recommended to read through them together. A more detailed list of resources in Iceland can be found here.</li>
+                    <li>Finally, it is good to reiterate that the adolescent can come to you if they are not feeling well, they are experiencing difficult feelings or any of the symptoms you have been discussing. Particularly note that not only is it possible to come you for help, but that you want them to reach out to you in these circumstances.</li>
+                    </ol>
+                    <br>
+                <h4>Where to look? Basic Information</h4>
+                <ol>
+                    <li>To someone you trust. The first step is usually to tell someone you trust, whether it is a friend, family member, school counsellor, psychologist or other professional.</li>
+                    <li>To your local health care clinic. The health care clinic is usually the first point of contact when people seek psychological help. The first step is to make an appointment with a physician who may initiate medication or refer your case to other professionals. At numerous health care clinics, there are psychologists that your doctor can refer to.</li>
+                    <li>To the psychologists' private offices. On the website of the Psychological Association of Iceland at www.sal.is there is a search engine that can be used to find psychologists based on location, language, specialisation and other factors.</li>
+                    <li>To private psychiatry offices. A number of psychiatrists provide medicative and conversational therapy in their private offices.</li>
+                    <li>To the emergency reception of a mental field at Landspítali. There they have psychologists, psychiatrists and nurses who are specialised in the treatment of mental health problems. The emergency reception is open from 12:00 to 19:00 on weekdays and from 13:00 to 17:00 at weekends. The emergency reception mental department's phone number is 543-4050. In case of an emergency outside these hours, you can reach out to the emergency reception at Landspitali Fossvogur. Outside the capital area, there is one specialised psychiatric ward, in Akureyri. The psychiatric ward in the hospital of Akureyri has an emergency room and a day and outpatient department. The hospital's phone number is 463-0100. Also, the emergency number 112 may be called in emergencies.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="social-media">
+                <div>
+                    <span>Get connected with us on social networks:</span>
+                </div>
+            <div>
+                <a href="mailto:hugrunhugur@gmail.com"><i class="fas fa-envelope" ></i></a>
+                <a href="https://www.facebook.com/gedfraedsla/"><i class="fab fa-facebook-f"></i></a>
+                
+                <a href="https://www.instagram.com/gedfraedsla/"><i class="fab fa-instagram"></i></a>
+                
+                <a href="https://open.spotify.com/show/7Iql09lX1v3FCLcg0nRttQ"><i class="fa fa-podcast"></i></a>
+            </div>
+        </div>
+        <div class="footer-contents">
+            <div class="footer-container">
+                <div class="footer-column-office">
+                    <div class="logo">
+                        <a href="../hugrun.html"
+                            ><img src="../images/hugrun_logo.svg" alt="logo here"
+                        /></a>
+                        </div>
+                    <p>Hugrún, an organization for mental health education, was established in the spring of 2016 by students in nursing, medicine and psychology at the University of Iceland.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h6>Useful links</h6>
+                    <p><a href="../hugrun.html">Home</a></p>
+                    <div class="article-links">
+                        <p><a href="#">Article</a></p>
+                        <div class="sub-links">
+                            <p><a href="#articles">For Parents</a></p>
+                            <p><a href="#articles">Mental Health</a></p>
+                        </div>
+                    </div>
+                    <p><a href="../hugrun.html#booking">Book Lecture</a></p>
+                    <p><a href="./about.html#contact">Contact</a></p>
+                    <p><a href="./about.html#about">About</a></p>
+                </div>
+                
+                <div class="footer-column">
+                    <h6>Contact</h6>
+                    <p><i class="fas fa-home"></i> Iceland</p>
+                    <p><i class="fas fa-envelope"></i> hugrunhugur@gmail.com</p>
+                    
+                </div>
+            </div>
+            <div class="copy-right">
+                &copy; 2020 Copyright:
+                <a href="https://gedfraedsla.is/"
+                ><span>gedfraedsla.is</span></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="../js/hugrun.js"></script>
+    <script src="../js/article.js"></script>
+</body>
+</html>

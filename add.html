@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Article</title>
+    <style>
+        .section { margin-bottom: 20px; }
+        .button { margin-top: 10px; }
+        .remove-button {
+            margin-top: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="{{ route('admin.articles.store') }}" method="POST" enctype="multipart/form-data">
+        @csrf
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="title" required>
+
+        <div id="content-sections"></div>
+
+        <button type="button" onclick="addSection('header')">Add Header</button>
+        <button type="button" onclick="addSection('subtitle')">Add Subtitle</button>
+        <button type="button" onclick="addSection('paragraph')">Add Paragraph</button>
+        <button type="button" onclick="addSection('statement')">Add Statement</button>
+        <button type="button" onclick="addSection('video')">Add Video</button>
+        <button type="button" onclick="addSection('image')">Add Image</button>
+
+        <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <script>
+        function addSection(type) {
+            const sectionsContainer = document.getElementById('content-sections');
+            const section = document.createElement('div');
+            section.className = 'section';
+
+            let sectionContent = '';
+            switch(type) {
+                case 'header':
+                    sectionContent = '<label>Header:</label><input type="text" name="content[][header]" required>';
+                    break;
+                case 'subtitle':
+                    sectionContent = '<label>Subtitle:</label><input type="text" name="content[][subtitle]" required>';
+                    break;
+                case 'paragraph':
+                    sectionContent = '<label>Paragraph:</label><textarea name="content[][paragraph]" required></textarea>';
+                    break;
+                case 'statement':
+                    sectionContent = '<label>Statement:</label><textarea name="content[][statement]" required></textarea>';
+                    break;
+                case 'video':
+                    sectionContent = '<label>Video:</label><input type="file" name="content[][video]" accept="video/*" required>';
+                    break;
+                case 'image':
+                    sectionContent = '<label>Image:</label><input type="file" name="content[][image]" accept="image/*" required>';
+                    break;
+            }
+
+            section.innerHTML = `
+                ${sectionContent}
+                <button type="button" class="remove-button" onclick="removeSection(this)">Remove</button>
+            `;
+            sectionsContainer.appendChild(section);
+        }
+
+        function removeSection(button) {
+            button.parentElement.remove();
+        }
+    </script>
+</body>
+</html>

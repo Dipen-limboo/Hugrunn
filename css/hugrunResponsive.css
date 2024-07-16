@@ -1,0 +1,1157 @@
+@media(max-width: 1220px){
+    body, header, #home, #booking, #support-info, #mindful, #footer {
+        width: 100%;
+    }
+
+    #booking, #support-info,    #footer {
+        padding: 0 3rem;
+    }
+
+    .about--description{
+        padding-left: 3rem;
+    }
+    .about-content{
+        width:100%;
+    }
+    .about-content p {
+        line-height: 3rem;
+    }
+
+    .form-cont {
+        justify-content: left;
+        gap: 10px;
+    }
+
+    .book-image{
+        height: 30rem;
+    }
+    .about--image{
+        border: none;
+        margin-left: 14rem;
+    }
+    .contact-right-content, .contact-left{
+        width: 100%;
+    }
+    .form-div input{
+        width:24rem;
+    }
+    textarea#message {
+        width: 100%;
+    }
+
+    header nav{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .nav-right-content{
+        gap: 4rem;
+    }
+
+    .banner-content{
+        width: 13.5rem;
+    }
+
+    .resources{
+        gap:2rem;
+        padding-bottom: 1rem;
+    }
+    .articles-categories{
+        width: 18rem;
+        padding-left: 3rem;
+    }
+    .articles-contents{
+        padding-right: 3rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    body, header, #home, #booking, #support-info, #mindful, #footer {
+        width: 100%;
+    }
+
+    header nav {
+        padding: 1rem 2rem;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .nav-right-content {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .nav-content ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-content ul li {
+        padding: 0;
+    }
+
+    .home-article {
+        flex-direction: row;
+    }
+
+    .left-home-content,
+    .right-home-content {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .left-home-content .home-content,
+    .right-home-content .home-content {
+        background-color: rgba(1, 1, 1, 0.3);
+        opacity: 1;
+    }
+
+    .left-home-content .home-content h2,
+    .right-home-content .home-content h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .home-banner-content {
+        padding: 0 2rem;
+        gap: 1rem;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #booking {
+        flex-direction: column;
+        padding: 1.25rem;
+    }
+
+    .book-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .book-content-div {
+        width: 100%;
+        padding: 1.2rem;
+    }
+
+    .form-div input{
+        width:24rem;
+    }
+
+    #support-info {
+        padding: 1.25rem;
+    }
+
+    .emergency {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .resources {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .resources-content {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .footer-column,
+    .footer-column-office {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-column-office {
+        margin-bottom: 2rem;
+    }
+
+    .copy-right {
+        padding: 1rem;
+    }
+
+    .emergency-content, 
+    .mindful-content h2 {
+        width: 100%;
+    }
+
+    
+        .nav-right-content {
+            display: flex;
+            align-items: center;
+        }
+        
+        header .navbar {
+            padding: 1rem 1.3rem;
+        }
+    
+        .nav-content {
+            display: none;
+        }
+    
+        .mobile-menu-icon,
+        .mobile-close-icon {
+            display: block;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: #000; /* Adjust color as needed */
+        }
+    
+        .mobile-nav-content {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(209, 80, 59, 0.9);
+            flex-direction: column;
+            z-index: 999;
+        }
+    
+        .mobile-nav-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    
+        .mobile-nav-content ul li {
+            text-align: center;
+        }
+    
+        .mobile-close-icon {
+            color: white;
+        }
+    
+        .left-home-content,
+        .right-home-content {
+            height: 58vh;
+        }
+    
+        .home-banner-content {
+            padding: 0;
+            gap: 0.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .banner-content {
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            width: 40vw;
+            align-items: center;
+        }
+    
+        .banner-content p {
+            font-size: 0.7rem;
+        }
+    
+        .banner-content img {
+            height: 1rem;
+            width: 2rem;
+        }
+    
+        #booking {
+            padding: 1rem;
+        }
+    
+        #support-info {
+            padding: 1rem;
+        }
+    
+        .emergency {
+            gap: 1rem;
+        }
+    
+        .resources {
+            gap: 1rem;
+        }
+    
+        .footer-container {
+            gap: 1rem;
+            padding: 0.5rem 1.5rem;
+        }
+    
+        .emergency-content, 
+        .mindful-content h2, 
+        .resources-content {
+            width: 80vw;
+            font-size: 2.3rem;
+        }
+    
+        .emergency-content h1, 
+        .resources-content h1 {
+            text-align: center;
+        }
+    
+        .emergency-content {
+            order: 1;
+        }
+    
+        .resources {
+            padding-left: 0;
+        }
+    
+        .book-content-div h1, 
+        .emergency-content h1, 
+        .resources-content h1 {
+            font-size: 1.8rem;
+        }
+    
+        .book-content-div p, 
+        .emergency-content p, 
+        .resources-content p {
+            font-size: 0.9rem;
+        }
+    
+        .home-article {
+            flex-direction: row;
+        }
+    
+        .social-media {
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .social-media div {
+            padding-top: 1vh;
+        }
+    
+        .footer-contents {
+            padding: 1rem;
+        }
+    
+        .footer-column p a, 
+        .footer-column p {
+            text-align: center;
+        }
+    
+        .footer-column-office p, 
+        .footer-column p, 
+        .copy-right {
+            font-size: 0.785rem;
+        }
+    
+        .resources-image img {
+            width: 12rem;
+            height: 10rem;
+        }
+    
+        .footer-column-office, 
+        .footer-column {
+            margin: 0;
+        }
+    
+        .dropdown { 
+            position: relative;
+            display: inline-block;
+        }
+    
+        .dropdown-content {
+            display: none;
+            position: relative;
+            background-color: transparent;
+            min-width: 160px;
+            overflow: auto;
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 1rem 0 0 1rem;
+        }
+        
+        .dropdown a:hover {
+            background-color: #ddd;
+        }
+        
+        .shows {
+            display: block;
+        }
+    
+        .top-nav .logo img {
+            filter: invert(100%);
+        }
+        
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+        }
+    
+        .bottom-nav {
+            padding: 1rem;
+        }
+    
+        .bottom-nav ul li {
+            text-align: justify;
+            color: var(--primary-color);
+            padding: 0.5rem 0;
+        }
+    
+        .bottom-nav ul li a {
+            color: var(--primary-color);
+        }
+    
+        .book-content-div {
+            width: 100%;
+            padding: 1.2rem;
+        }
+    
+        section#resources {
+            padding: 0.5rem;
+        }
+    
+        .testimonials-content-div, 
+        .testimonials-image-div {
+            width: 100%;
+        }
+    
+        .testimonials-content-div {
+            order: 1;
+            min-height: 24vh;
+            padding: 2rem 1rem;
+        }
+    
+        .about-content {
+            width: 100%;
+        }
+    
+        .about--image{
+            height: auto;
+            margin-top: 0;
+            margin-left: 6rem;
+            border-right: 2px solid var(--emergency-color);
+        }
+    
+        .book-image{
+            height: auto;
+            margin-top: 0;
+            border-left: 2px solid var(--emergency-color);
+        }
+        .about--us h2 {
+            padding-right: 3rem;
+            padding-left: 3rem;
+            font-size: 1.2rem;
+        }
+    
+        .about--description {
+            padding: 1rem 1rem;
+        }
+    
+        #support {
+            padding: 1rem 1rem;
+        }
+    
+        .book-content-div h2 {
+            padding-top: 1rem;
+        }
+    
+        #bod {
+            margin: 1rem 0.5rem;
+        }
+
+        .contact-right-content{
+            width: 100%;
+            padding: 1rem;
+        }
+    
+        .card {
+            width: 50%;
+        }
+    
+        #contact {
+            padding: 2rem 0;
+        }
+    
+        .form-row {
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 0.5rem 0;
+        }
+    
+        .contact-left {
+            width: 100%;
+            padding: 0.5rem 3.8rem;
+            margin-top: 2rem;
+        }
+    
+        .circle {
+            left: 86%;
+            z-index: 1;
+        }
+        
+        .form-div textarea {
+            padding: 0.5rem 0;
+        }
+    
+        .form-btn input {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .testimonials-image-div {
+            min-height: 60vh;
+        } 
+    
+        .testimonials-image-div img {
+            height: 100%;
+        }
+    
+        .review--head-content {
+            padding: 1rem 2rem;
+        }
+    
+        .review-head-video iframe {
+            margin: 0;
+            width: 100%;
+            height: 17rem;
+        }
+    
+        section#campaign-content {
+            padding: 1rem 2rem;
+            flex-direction: column;
+        }
+    
+        .campaign-div-content {
+            order: 1;
+            width: 100%;
+        }
+    
+        .campaing-content-image {
+            width: 100%;
+        }
+    
+        section#campaign-content-II {
+            padding: 1rem 2rem;
+        }
+    
+        section#campaign-content-II h2, 
+        .campaign-div-content h2 {
+            font-size: 1.45rem;
+        }
+    
+        blockquote p {
+            font-size: 2rem;
+        }
+    
+        #campaign-content_III .campaign-div-content {
+            padding: 1rem 2rem;
+        }
+    
+        #campaign-content_III .campaign-content-img {
+            width: 100%;
+            padding: 1rem 2rem;
+        }
+        
+        section#next_campaign {
+            padding: 1rem 2rem;
+        }
+    
+        .next_campaign_heading h2 {
+            font-size: 1rem;
+        }
+    
+        .reviews--img-div h5 {
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+    
+        .articles-categories {
+            display: none;
+        }
+    
+        .articles-contents {
+            width: 100%;
+            padding: 1rem 2rem;
+            padding-top: 0;
+        }
+    
+        .articles-contents .logo img {
+            height: 2.5rem;
+        }
+        
+        .mobile-category {
+            display: block;
+            margin: 0;
+            padding-left: 2rem;
+        }
+    
+        #articles {
+            flex-direction: column;
+            gap: 0;
+        }
+    
+        .mobile-close-icon i {
+            color: white;
+        }
+    
+        .articles-categories-mobile {
+            display: none; 
+            position: absolute;
+            top: 95px;
+            left: 0;
+            width: 80%;
+            min-height: 100%;
+            background-color: rgba(255, 255, 255, 1); 
+            z-index: 1000; 
+        }
+        
+        .articles-title h1 {
+            font-size:1.2rem;
+            padding-bottom: 0;
+        }
+
+        .articles-title p{
+            padding: 0.25rem 1rem;
+        }
+
+        .articles-title p a{
+            font-size: 0.85rem;
+
+        }
+
+        .articles-content-body p, .articles-content-body ol li{
+            font-size: 0.9rem;
+            line-height: 1.45rem;
+        }
+
+        .articles-content-body h3, .contact-right-content h1 {
+            font-size: 1.5rem;
+        }
+
+        p.par{
+            font-size: 0.8rem;
+        }
+
+        .mobile-category button {
+            border-radius: 2px;
+            padding: 0.2rem;
+            margin-top: 7px;
+            font-size: 0.65rem;
+        }
+    
+        .midImg {
+            margin-left: 8rem;
+        } 
+
+        .testimonials-links h3{
+            font-size: 2rem;
+        }
+
+        .testimonials-links ul li {
+            padding: 0.5rem 2rem;
+        }
+
+        .testimonials-links ul li a {
+            font-size: 1rem;
+        }
+
+        .testimonials-links{
+            margin-top: 10rem;
+        }
+    
+        .campaing-content-image img{
+            height: 40vh;
+        }
+
+        .campaing-content-image {
+            margin-top: 0;
+            min-height: 40vh;
+            width: 50%;
+            margin-bottom:1rem;
+            border-right: 2px solid var(--emergency-color);
+        }
+
+
+        .right {
+            margin-left: 81%;
+        }
+
+
+        .campaignImg{
+            margin-left:10vw;
+            border: none;
+            width: 80%;
+        }
+
+        .groupImg {
+            width: 100%;
+            height: auto;
+            border: none;
+        }
+}
+
+@media (max-width: 480px) {
+    body, header, #home, #booking, #support-info, #mindful, #footer {
+        width: 100%;
+    }
+
+    header nav {
+        padding: 1rem;
+    }
+    .nav-right-content {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .navbar {
+        padding: 1rem 1.3rem;
+    }
+
+    .nav-content {
+        display: none;
+    }
+
+    .mobile-menu-icon,
+    .mobile-close-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #000; /* Adjust color as needed */
+    }
+
+    .mobile-nav-content {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(209, 80, 59, 0.9);
+        flex-direction: column;
+        z-index: 999;
+    }
+
+    .mobile-nav-content ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .mobile-nav-content ul li {
+        text-align: center;
+    }
+
+    .mobile-close-icon {
+        color: white;
+    }
+
+    .left-home-content,
+    .right-home-content {
+        height: 58vh;
+    }
+
+    .home-banner-content {
+        padding: 0;
+        gap: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-content {
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+        width: 40vw;
+        align-items: center;
+    }
+
+    .banner-content p {
+        font-size: 0.7rem;
+    }
+
+    .banner-content img {
+        height: 1rem;
+        width: 2rem;
+    }
+
+    #booking {
+        padding: 1rem;
+    }
+
+    #support-info {
+        padding: 1rem;
+    }
+
+    .emergency {
+        gap: 1rem;
+    }
+
+    .resources {
+        gap: 1rem;
+    }
+
+    .footer-container {
+        gap: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .emergency-content, 
+    .mindful-content h2, 
+    .resources-content {
+        width: 80vw;
+        font-size: 2.3rem;
+    }
+
+    .emergency-content h1, 
+    .resources-content h1 {
+        text-align: center;
+    }
+
+    .emergency-content {
+        order: 1;
+    }
+
+    .resources {
+        padding-left: 0;
+    }
+
+    .book-content-div h1, 
+    .emergency-content h1, 
+    .resources-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .book-content-div p, 
+    .emergency-content p, 
+    .resources-content p {
+        font-size: 0.9rem;
+    }
+
+    .home-article {
+        flex-direction: row;
+    }
+
+    .social-media {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-media div {
+        padding-top: 1vh;
+    }
+
+    .footer-contents {
+        padding: 1rem;
+    }
+
+    .footer-column p a, 
+    .footer-column p {
+        text-align: center;
+    }
+
+    .footer-column-office p, 
+    .footer-column p, 
+    .copy-right {
+        font-size: 0.785rem;
+    }
+
+    .resources-image img {
+        width: 12rem;
+        height: 10rem;
+    }
+
+    .footer-column-office, 
+    .footer-column {
+        margin: 0;
+    }
+
+    .dropdown { 
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: transparent;
+        min-width: 160px;
+        overflow: auto;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 1rem 0 0 1rem;
+    }
+    
+    .dropdown a:hover {
+        background-color: #ddd;
+    }
+    
+    .shows {
+        display: block;
+    }
+
+    .top-nav .logo img {
+        filter: invert(100%);
+    }
+    
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .bottom-nav {
+        padding: 1rem;
+    }
+
+    .bottom-nav ul li {
+        text-align: justify;
+        color: var(--primary-color);
+        padding: 0.5rem 0;
+    }
+
+    .bottom-nav ul li a {
+        color: var(--primary-color);
+    }
+
+    .book-content-div {
+        width: 100%;
+        padding: 1.2rem;
+    }
+
+    section#resources {
+        padding: 0.5rem;
+    }
+
+    .testimonials-content-div, 
+    .testimonials-image-div {
+        width: 100%;
+    }
+
+    .testimonials-content-div {
+        order: 1;
+        min-height: 50vh;
+        padding: 2rem 1rem;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about--image {
+        height: auto;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .about--us h2 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .about--description {
+        padding: 1rem 1rem;
+    }
+
+    #support {
+        padding: 1rem 1rem;
+    }
+
+    .book-content-div h2 {
+        padding-top: 1rem;
+    }
+
+    #bod {
+        margin: 1rem 0.5rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    #contact {
+        padding: 2rem 0;
+    }
+
+    .form-row {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .contact-left {
+        width: 100%;
+        padding: 0.5rem 3.8rem;
+        margin-top: 2rem;
+    }
+
+    .circle {
+        left: 86%;
+    }
+    
+    .form-div textarea {
+        padding: 0.5rem 0;
+    }
+
+    .form-btn input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonials-image-div {
+        min-height: 60vh;
+    } 
+
+    .contact-right-content {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .testimonials-image-div img {
+        height: 100%;
+    }
+
+    .review--head-content {
+        padding: 1rem;
+    }
+
+    .review-head-video iframe {
+        margin: 0;
+        width: 100%;
+        height: 9rem;
+    }
+
+    section#campaign-content {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .campaign-div-content {
+        order: 1;
+        width: 100%;
+    }
+
+    .campaing-content-image {
+        width: 100%;
+    }
+
+    section#campaign-content-II {
+        padding: 1rem;
+    }
+
+    section#campaign-content-II h2, 
+    .campaign-div-content h2 {
+        font-size: 1.45rem;
+    }
+
+    blockquote p {
+        font-size: 2rem;
+    }
+
+    #campaign-content_III .campaign-div-content {
+        padding: 1rem;
+    }
+
+    #campaign-content_III .campaign-content-img {
+        width: 100%;
+        padding: 0;
+    }
+    
+    section#next_campaign {
+        padding: 1rem;
+    }
+
+    .next_campaign_heading h2 {
+        font-size: 1rem;
+    }
+
+    .reviews--img-div h5 {
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+
+    .articles-categories {
+        display: none;
+    }
+
+    .articles-contents {
+        width: 100%;
+        padding: 1rem;
+        padding-top: 0;
+    }
+
+    .articles-contents .logo img {
+        height: 2.5rem;
+    }
+    
+    .mobile-category {
+        display: block;
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    #articles {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .mobile-close-icon i {
+        color: white;
+    }
+
+    .articles-categories-mobile {
+        display: none; 
+        position: fixed;
+        top: 95px;
+        left: 0;
+        width: 80%;
+        min-height: 80%;
+        background-color: rgba(255, 255, 255, 0.9); 
+        z-index: 1000; 
+    }
+
+    .mobile-category button {
+        border-radius: 2px;
+        padding: 0.2rem;
+        margin-top: 7px;
+        font-size: 0.65rem;
+    }
+
+    .midImg {
+        margin-left: 0;
+    } 
+
+    .testimonials-links{
+        margin-top: 5rem;
+    }
+
+    .campaing-content-image {
+        margin-top: 0;
+        min-height: 50vh;
+        width: 100%;
+        margin-bottom:1rem
+    }
+    .right {
+        margin-left: 66%;
+    }
+
+    .campaignImg{
+        margin-left:0;
+        border: none;
+        width: 100%;
+    }
+}
+

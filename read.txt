@@ -1,0 +1,15 @@
+
+
+--bhusan--
+
+
+
+the article contents type must be asked 
+-paragraph
+-question
+-answer
+
+check the client old site and look the resources how can we make that type of drop down from backend
+
+check the seo contents too
+

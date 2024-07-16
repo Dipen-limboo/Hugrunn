@@ -1,0 +1,479 @@
+#articles {
+    display: flex;
+    gap: 1rem; 
+    cursor: pointer;
+}
+
+.articles-categories {
+    padding: 1.5rem 0 0 5rem;
+    position: sticky;
+    top: 2rem; 
+    width: 24rem;
+    height: calc(100vh - 8rem); 
+    overflow-y: auto; 
+}
+
+.articles-contents {
+    padding: 1.5rem 5rem 3rem 0 ;
+    padding-left: 1rem;
+    width: calc(100% - 20rem); 
+}
+
+.articles-categories-mobile{
+    display: none;
+}
+
+.mobile-category{
+    display: none;
+}
+
+ol {
+    list-style: decimal;
+    padding-left: 50px;
+}
+
+.articles-categories{
+    cursor: pointer;
+}
+
+.articles-title h1 {
+    font-size: 1.3rem;
+    color: var(--font-color);
+    opacity: 0.95;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.articles-title p{
+    padding: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.articles-title p a{
+    color: var(--font-color);
+    opacity: 75%;
+    font-size: 1.1rem;
+}
+
+#current-page a{
+    color: var(--emergency-color);
+    opacity: 1;
+}
+
+hr{
+    height: 2px;
+    background-color: var(--button-color);
+    margin-bottom: 1rem;
+    width: 15rem;
+}
+
+
+.articles-title p a:hover{
+    opacity: 1;
+}
+
+
+.articles-contents h6 {
+    font-size: 0.85rem;
+    opacity: 1;
+    letter-spacing: 0.5px;
+    color: var(--emergency-color);
+    align-items: center;
+}
+
+.articles-contents-heading .date{
+    padding-bottom: 1rem;
+}
+
+.articles-contents h6 span {
+    font-size: 0.75rem;
+    font-style: italic;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}
+
+.articles-contents .logo img{
+    height: 2rem;
+    width: 3.5rem;
+}
+
+.articles-content-body {
+    text-align: justify;
+}
+
+.articles-content-body h3{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1rem;
+    color: var(--button-color);
+    opacity: 0.99;
+}
+
+
+
+.articles-content-body p, .articles-content-body ol li{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: var(--button-color);
+    opacity: 0.95;
+}
+
+
+.articles-content-body ol li{
+    padding: 0.2rem 0 ;
+}
+
+.articles-content-body h4{
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    color: var(--button-color);
+    font-weight: bolder;
+}
+
+
+/* about page */
+
+
+.about--description {
+    padding: 0 2rem 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about-content {
+    width: 58%;
+    color: var(--font-color);
+}
+
+.about-content h1 {
+    opacity: 0.95;
+    text-transform: uppercase;
+    font-size: 1.65rem;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.about-content p{
+    font-size: 1rem;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+.about--image {
+    margin-top: 2rem;
+    height:28rem;
+    width: 27rem;
+    padding: 1rem;
+    border: 2px solid var(--emergency-color);
+    border-right: none;
+}
+
+.about--image img{
+    width: 100%;
+}
+
+
+.about--us {
+    margin: 2rem 0 0 0;
+    background: var(--button-color);
+    color: var(--primary-color);
+}
+
+.about--us h2 {
+    font-size: 1.4rem;
+    padding: 4rem 7rem;
+    text-align: center;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+}
+
+.book-content-div p span, .book-content-div p a, .about-content p a{
+    color: var(--button-color);
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.book-content-div p span:hover, .book-content-div p a:hover, .about-content p a:hover{
+    color: var(--emergency-color);
+    transition: 0.5s ease;
+} 
+
+
+.book-content-div h2{
+    padding-top: 4rem;
+    font-size: 1.65rem; 
+    opacity: 0.95; 
+    padding-bottom:0.65rem
+}
+
+.book-content-div p{
+    padding-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
+.book-image{
+    border: 2px solid var(--emergency-color);
+    border-left: none;
+    padding: 1rem;
+}
+
+#booking{
+    background: var(--primary-color);
+    padding: 4rem 5rem;
+}
+
+#support {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+#support .book-image{
+    border: 2px solid var(--emergency-color);
+    border-right: none;
+}
+
+
+#bod {
+    margin: 4rem 5rem;
+}
+
+.card-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(21, 26, 65, 0.95);
+    padding: 1rem 0;
+    border-radius: 20px;
+}
+
+
+.card {
+    width: 28%;
+    height: 20rem;
+    margin: 1rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease; 
+}
+
+.card.visible {
+    display: block;
+    opacity: 1;
+    max-height: 20rem; 
+}
+
+.button-container {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#bod h1 {
+    text-align: center;
+    font-size: 1.65rem;
+    color: var(--emergency-color);
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.image-card img {
+    width: 100%;
+    height: 12.86375rem;
+    border-top-left-radius: 3rem;
+}
+
+
+.image-card-contents {
+    padding: 0 2rem;
+    align-items: center;
+}
+
+.image-card-contents h4{
+    color: var(--emergency-color);
+    padding: 0.5rem 0;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.image-card-contents p {
+    font-size: 0.785rem;
+    position: relative;
+    opacity: 0.85;
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image-card-contents a{
+    color: var(--emergency-color);
+    font-size: 0.85rem;
+    text-decoration: underline;
+}
+
+
+#contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 80px;
+    background-color: var(--primary-color);
+}
+
+.contact-right-content {
+    padding: 30px 60px 0 20px;
+    width: 500px;
+}
+
+.contact-div {
+    display: flex;
+    gap: 20px;
+    color: var(--font-color);
+    padding: 16px 0;
+}
+
+.contact-div p{
+    opacity: 0.85;
+} 
+
+.contact-div i{
+    color: var(--emergency-color);
+    opacity: 0.9;
+}
+
+.contact-left {
+    margin-top: 60px;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.form-div{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+
+.form-div input:focus, .form-div input,.form-div textarea{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 8px;
+    font-family: 'Quicksand';
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    background-color: var(--primary-color);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.form-div input{
+    width: 14rem;
+}
+
+.form-div i {
+    color: var(--emergency-color);
+    font-size: 20px;
+    opacity: 1;
+}
+
+
+.form-div::after {
+    width: 100%;
+    opacity: 40%;
+    height: 1.5px; 
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 1));
+    background-size: 200% 100%; 
+    background-position: right bottom;
+    transition: background-position 0.5s ease-in-out; 
+}
+
+.form-div:hover::after {
+    background-position: left bottom;
+}
+
+
+.message-div{
+    padding: 20px 0;
+}
+
+.form-btn{
+    padding: 10px 0;
+}
+
+.form-btn input{
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 10px;
+    padding: 14px 24px;
+    opacity: 85%;
+    color: var(--primary-color);
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.form-btn input:hover{
+    background-color: var(--primary-color);
+    border: 1px solid var(--button-color);
+    transition: 0.5s ease;
+    color: var(--button-color);
+}
+
+.contact-div .number{
+    opacity: 100%;
+}
+
+input[type=text]::placeholder,
+input[type=email]::placeholder,
+input[type=tel]::placeholder,
+textarea::placeholder {
+    opacity: 0.95; 
+    color: var(--font-color);
+}
+
+
+.contact-right-content h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 0.5rem 0;
+}
+
+.par-content{
+    text-align: justify;
+    line-height: 28px;
+    opacity: 0.9;
+}
+
+
+p.par {
+    text-transform: uppercase;
+    opacity: 0.9;
+    color: var(--emergency-color);
+}
+
+.about-content h1, .book-content-div h2{
+    color: var(--emergency-color);
+} 
